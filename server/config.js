@@ -23,12 +23,12 @@ module.exports = {
   // Autodesk ForgeSDK configuration
 
   // this this callback URL when creating your client ID and secret
-  callbackURL: process.env.FORGE_CALLBACK_URL || 'https://bomviewer.herokuapp.com/api/google/callback/oauth',
+  callbackURL: process.env.FORGE_CALLBACK_URL || 'https://sustainapp1.herokuapp.com/api/google/callback/oauth',
 
   // set enviroment variables or hard-code here
   credentials: {
-    client_id: process.env.FORGE_CLIENT_ID || 'eNyBwOsNrRvdUiTUvmqdiMM8Wh3MgG3I',
-    client_secret: process.env.FORGE_CLIENT_SECRET || 'LOMCEJ3cu75jwvFQ',
+    client_id: process.env.FORGE_CLIENT_ID || 'vlaBlS6RJeaVMV1B6FWAHB4TNhcAxfii',
+    client_secret: process.env.FORGE_CLIENT_SECRET || 'Wc0ab75fe57a84f1',
   },
 
   // Required scopes for your application on server-side
@@ -38,10 +38,10 @@ module.exports = {
 
   // google configuration
   google: {
-    callbackURL: process.env.GOOGLE_CALLBACK_URL || 'https://bomviewer.herokuapp.com/api/google/callback/oauth',
+    callbackURL: process.env.GOOGLE_CALLBACK_URL || 'https://sustainapp1.herokuapp.com/api/google/callback/oauth',
     credentials: {
-      client_id: process.env.GOOGLE_CLIENT_ID || '174560695407-kuoaig0hgs7f0m62g3bj25vkn9mljtb2.apps.googleusercontent.com',
-      client_secret: process.env.GOOGLE_CLIENT_SECRET || 'sGRC25cCSr1HJ_HoK0kbH5Pp'
+      client_id: process.env.GOOGLE_CLIENT_ID || '174560695407-598ggi015570bbl0a93ggu2eg60d0fc5.apps.googleusercontent.com',
+      client_secret: process.env.GOOGLE_CLIENT_SECRET || 'QVJN3d0PxtxmeLRmS6bKG4QC'
     }
   }
 };
